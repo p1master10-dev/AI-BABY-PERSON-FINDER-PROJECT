@@ -1,0 +1,63 @@
+.header {
+     z-index: 99;
+     top: 0;
+     width: 100%;
+     background-color: beige;
+     text-align: center;
+     font-size: 30px;
+     font-family: OverPass Mono Light;
+     font-weight: 600;
+     align-items: center;
+     padding: 1px 0px;
+}
+
+.header p {
+     margin-top: 10px;
+     margin-bottom: 10px;
+}
+
+body {
+     margin: 0;
+     padding: 0;
+}
+
+.btn {
+     padding: 10px 18px;
+     font-size: large;
+     color: black;
+     border: none;
+     border-radius: 7px;
+     font-family: OverPass Mono Light;
+     font-weight: 600;
+}
+
+.btn-red {
+     background-color: rgba(253, 99, 52, 0.938);
+}
+
+.btn-lightgreen {
+     background-color: chartreuse;
+}
+
+.btn-yellow {
+     background-color: rgb(241, 241, 62);
+     cursor: pointer;
+     width: fit-content;
+     height: fit-content;
+}
+
+.btn-yellow:active {
+     background-color: rgb(197, 197, 68);
+     text-align: center;
+     align-items: center;
+}
+
+canvas {
+     box-shadow: 2px 2px 5px lightgrey;
+     border-radius: 10px;
+     margin-top: 40px;
+}
+
+.container1 {
+     margin-top: 20px;
+}

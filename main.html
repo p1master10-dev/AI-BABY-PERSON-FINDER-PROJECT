@@ -1,0 +1,30 @@
+<html>
+<head>
+     <title>AI BABY MONITORING APP</title>
+     <!-- P5.js link -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+     
+     <!-- Ml5.js link -->
+     <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+     
+     <!-- CSS link -->
+     <link rel='stylesheet' href='main.css'>
+</head>
+<body bgcolor='whitesmoke' align="center">
+     <div class="header">
+          <p class='header-text'>AI Baby Monitoring App</p>
+     </div>
+     <div class="content">
+          <div class="container1">
+               <button class="btn btn-red" id="status" disabled>Status : NaN</button>
+               <button class='btn btn-lightgreen' id="baby_status" disabled>BABY NOT FOUND</button>
+          </div>
+     </div>
+     <div id='audios'>
+          <audio controls  id='bell'>
+               <source src='bell.mp3'>
+          </audio>
+     </div>
+</body>
+<script src='main.js'></script>
+</html>
