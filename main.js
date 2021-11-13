@@ -50,7 +50,7 @@ function gotResult(error , results) {
      if (error) {
           console.log(error);
      }else {
-          console.log(results);
+//           console.log(results);
           objects = results;
      }
 } 
